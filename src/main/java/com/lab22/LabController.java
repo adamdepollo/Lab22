@@ -30,6 +30,8 @@ public class LabController {
 		String pn = s.getPhoneNumber();
 		summary.addObject("pn", String.format("%3s-%3s-%4s", pn.substring(0,3), pn.substring(3, 6), pn.substring(6, pn.length())));
 		summary.addObject("em", s.getEmail());
+		summary.addObject("pw", s.getPassword());
+		summary.addObject("sin", s.getSin());
 		return summary;
 	}
 }

@@ -13,7 +13,7 @@
 </head>
 <body>
 	<video autoplay muted loop id="myVideo">
-		<source src="fire.mp4" type="video/mp4">
+		<source src="spoop.mp4" type="video/mp4">
 	</video>
 	<div class="container vertical-center">
 		<div class="card" id="cardRegister">
@@ -25,9 +25,11 @@
 			<div class="row align-items-center item">
 				<div class="col-lg-12 text-center">
 					<h5>Here's your information!</h5>
-					<p>${fn} ${ln}</p>
-					<p>${em}</p>
-					<p>${pn}</p>
+					<p>Name: ${fn} ${ln}</p>
+					<p>Email: ${em}</p>
+					<p>Phone Number: ${pn}</p>
+					<p>Fav Sin: ${sin}
+					<p>Password: ${pw}</p>
 				</div>
 			</div>
 		</div>
